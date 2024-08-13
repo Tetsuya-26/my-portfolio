@@ -2,8 +2,8 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="shadow-md p-4">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="shadow-md p-4 pr-36">
+      <div className="container relative mx-auto flex justify-between items-center">
         <h1><a className="text-black text-2xl font-bold">Logo</a></h1>
         <div className="space-x-4">
           <a href="#" className="text-black hover:text-gray-300">Home</a>

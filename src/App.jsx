@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Header from './components/Header'
 import { motion } from 'framer-motion'
+import DarkModeSwitch from './components/DarkModeSwitch';
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
         ease: [0, 0.71, 0.2, 1.01]
       }}>
         <Navbar/>
+        <DarkModeSwitch/>
+        <Header/>
       </motion.div>
   )
 }
